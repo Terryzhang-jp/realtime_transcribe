@@ -20,6 +20,7 @@ export interface SonioxConfig {
   enable_speaker_diarization?: boolean;
   translation?: TranslationConfig;
   sample_rate?: number;
+  num_channels?: number;
 }
 
 export type TranslationStatus = 'original' | 'translation';
